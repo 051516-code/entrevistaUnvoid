@@ -1,0 +1,31 @@
+{
+  "plugins": ["prettier-plugin-jsdoc"],
+  "semi": true,
+  "singleQuote": true,
+  "quoteProps": "consistent",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "arrowParens": "avoid",
+  "useTabs": false,
+  "tabWidth": 2,
+  "printWidth": 120,
+  "htmlWhitespaceSensitivity": "css",
+  "tsdoc": true,
+  "jsdocCapitalizeDescription": false,
+  "jsdocPrintWidth": 80,
+  "jsdocCommentLineStrategy": "singleLine",
+  "overrides": [
+    {
+      "files": "**/*.md",
+      "options": {
+        "semi": true,
+        "trailingComma": "none",
+        "arrowParens": "always",
+        "printWidth": 80,
+        "quoteProps": "as-needed"
+      }
+    }
+  ],
+  "embeddedLanguageFormatting": "auto",
+  "bracketSameLine": true
+}
